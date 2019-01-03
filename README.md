@@ -1,13 +1,20 @@
 Создай папку solution. В ней три папки source, target и tests.
 В папке source создай файл Solution.java  с кодом:
 
+```
+
 public class Solution {
     public String method2(String arg) {
         return arg;
     }
 }
 
+```
+
 В папке tests создай 1-й файл TestClass.java  с кодом:
+
+```
+
 import org.junit.Test;
 import org.junit.Assert;
 
@@ -19,7 +26,13 @@ public class TestClass {
    }
 }
 
+
+```
+
 и 2-й файл DynamicTestClass.java  с кодом:
+
+
+```
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -61,6 +74,8 @@ public class DynamicTestClass {
         assertEquals(out, method.invoke(solution, in));
     }
 }
+
+```
 
 В папку tests скачай и положи .jar:
 junit-4.12.jar
