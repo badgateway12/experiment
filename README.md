@@ -85,6 +85,7 @@ public class DynamicTestClass {
  - junit-jupiter-params-5.4.0-M1.jar
 
 Исправь везде path.
-под мак "java -cp .:/tests:/tests/junit-4.12.jar:/tests/hamcrest-core-1.3.jar org.junit.runner.JUnitCore TestClass"};
 
-под винду возможно так "java -cp .;/tests:/tests/junit-4.12.jar;/tests/hamcrest-core-1.3.jar org.junit.runner.JUnitCore TestClass"};
+Под мак команда "java -cp .:/tests:/tests/junit-4.12.jar:/tests/hamcrest-core-1.3.jar org.junit.runner.JUnitCore TestClass"};
+
+Под винду возможно так "java -cp .;/tests:/tests/junit-4.12.jar;/tests/hamcrest-core-1.3.jar org.junit.runner.JUnitCore TestClass"};
