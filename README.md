@@ -78,11 +78,11 @@ public class DynamicTestClass {
 ```
 
 В папку tests скачай и положи .jar:
-junit-4.12.jar
-hamcrest-core-1.3.jar
-junit-jupiter-api-5.4.0-M1.jar
-apiguardian-api-1.0.0.jar
-junit-jupiter-params-5.4.0-M1.jar
+ - junit-4.12.jar
+ - hamcrest-core-1.3.jar
+ - junit-jupiter-api-5.4.0-M1.jar
+ - apiguardian-api-1.0.0.jar
+ - junit-jupiter-params-5.4.0-M1.jar
 
 Исправь везде path.
 под мак "java -cp .:/tests:/tests/junit-4.12.jar:/tests/hamcrest-core-1.3.jar org.junit.runner.JUnitCore TestClass"};
